@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link type="text/css" href="./assets/css/theme.css" rel="stylesheet">
+    
+    <link type="text/css" href="./assets/css/demo.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+          <a class="navbar-brand" href="#"> <img src="./assets/images/app_icon.png" height="50" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_example_1" aria-controls="navbar_example_1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar_example_1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Call Quality</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Agents</a>
+              </li>
+              
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link-icon" href="#" id="navbar_1_dropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>&nbsp; Mercy</a>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <h6 class="dropdown-header">Mercy</h6>
+                 
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-cog text-primary"></i>Settings
+                  </a>
+                  <div class="dropdown-divider" role="presentation"></div>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-sign-out-alt text-primary"></i>Sign out
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <main class="main">
+      <section class="slice slice-lg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- detailed information -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-8">
+                          <h2 class="heading h3 mb-0">Detailed Information</h2>
+                        </div>
+                        <div class="col-4 text-right">
+                          <!-- <a href="docs/typography.html" class="btn btn-sm btn-primary">Open in Docs</a> -->
+                        </div>
+                      </div>
+                      <div class="row-wrapper">
+                      <div class="row cols-xs-space cols-sm-space cols-md-space">
+                       
+                          <div class="col-lg-6 col-md-6">
+                            <select class="selectpicker" title="Agent Name">
+                              <option>Alice</option>
+                              <option>Racheal</option>
+                              <option>Becky</option>
+                              <option>Ian</option>
+                              <option>Kevin</option>
+                              <option>Grace</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                            <select class="selectpicker" data-style="btn-primary" title="Type of Call">
+                              <option>Inbound</option>
+                              <option>Outbound</option>
+                              
+                            </select>
+                          </div>
+                          
+                          
+                       
+                    </div>
+                    <div class="row cols-xs-space cols-sm-space cols-md-space">
+                       
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <div class="input-group input-group-transparent mb-4">
+                                    <input type="date" class="form-control" placeholder="Birthday">
+                                 
+                                  <div class="input-group-append">
+                                   
+                                    <span class="input-group-text">Date of listening</span>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Add a general comment">
+                              </div>
+                        </div>
+                        
+                        
+                     
+                  </div>
+                </div>
+             
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Greeting</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent say thank you for calling or apply local greeting?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent mention company name?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent mention his/her name?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent offer assitance to the caller"s name?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent offer assitance to the caller's telephone number?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent offer assitance to the customer's account number?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                  
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Call Etiquete</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Was the agent being positive, enthusiastic, remained polite and respectful throughout the call?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Was the agent friendly, warm and eager to assist the customer?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent request for permission to put customer on hold?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent apologize where necessary?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent use courteous words and phrases?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent avoid long silences during the call?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="Yes/No" >
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        
+                  
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Communication/Soft skills</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent demonstrate active listening?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent communicate with empathy and professionally and demonstrated ownership of the call?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Was agent keen and attentive?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent use polite and appropriate tone?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent use business language?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent interrupt or talk over the customer?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent refrain from using complicated jargon?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                  
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Compliance adherence and case procedures</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent follow the account verification procedure?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent follow the complete internal process and properly completed the process?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">Did the agent deviate from the script when necessary?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent capture correct and complete details?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                       
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Issue resolution and call management</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent apologize for the issue, inconvenience associated with the problem?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent have knowledge of products /service?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent ask leading questions to accurately diagnose the problem?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent request for the error code messages from the customer?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent use appropriate resources to address the issue?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent provide the most appropriate solution?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">Did agent answer all the customer’s question correctly?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">Did agent answer the customer’s question correctly and also handled customer interaction efficiently?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div> <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">Did the agent give the correct service level agreement (SLA)?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div> <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">Did agent Sufficiently addressed the customer’s issue?
+                                </div>
+                                <div class="col-sm-2  " style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                  
+                    </div>
+
+                   
+                </div><div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Using Hold</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent informed the customer before placing them on hold?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent keep in touch during long hold?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent thank the customer for holding?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                     
+                       
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Connecting/Transfer</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent transferred the call to the account manager when the customer requested for them to do so?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent use appropriate transfer guidelines?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent informed customer where and why they are connected?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                     
+                       
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Call Wrap Up</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent adhere to the call closure guidelines?
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent follow-up appointment when necessary?
+                                </div>
+                                <div class="col-sm-2   text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did agent ask if the customer have any additional questions or issues before ending the call?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent if there is anything they can do to enhance the service they provide them?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                                Did the agent thank the customer for calling?
+                                </div>
+                                <div class="col-sm-2  text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="0-10" >
+                                        <option>NA</option>
+                                       
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option> <option>10</option>
+                                        
+                                      </select>
+                                </div>
+                                
+                        </div>
+                     
+                       
+                    </div>
+
+                   
+                </div><div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12">
+                        <h3 class="heading h6 text-uppercase text-primary mt-5 mb-4">Automatic Fail</h3>
+                        
+                        <div class="row cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-10">
+                               Why Fail
+                                </div>
+                                <div class="col-sm-2 text-right" style="margin-bottom: 5px;">
+
+                               
+                                    <select class="selectpicker" data-style="btn-primary" title="......" >
+                                        
+                                       
+                                        <option value="Agent disconnect the call without sufficient reason">
+                                            Agent disconnect the call without sufficient reason
+                                          </option>
+                                          <option value="Failure to answer call">
+                                            Failure to answer call
+                                          </option>
+                                          <option value="Failed to verify authorized user when required">
+                                            Failed to verify authorized user when required
+                                          </option>
+                                          <option value="Failed to access customer account">
+                                            Failed to access customer account
+                                          </option>
+                                          <option value=" Failed to assist caller and transferred back into same Queue">
+                                            Failed to assist caller and transferred back into same Queue
+                                          </option>
+                                        
+                                      </select>
+                                </div>
+                        </div>
+                      
+                     
+                       
+                    </div>
+
+                   
+                </div>
+                <div class="row cols-xs-space cols-sm-space cols-md-space" style="margin-top: 30px;">
+                    <div class="col-lg-12">
+                        <button type="button" class="btn btn-block btn-primary">Submit</button>
+                    </div>
+                </div>
+           
+            </div>
+               
+            </div>
+            
+        </div>
+      </section>
+    </main>
+      <!-- Core -->
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/popper/popper.min.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="./assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Page plugins -->
+    <script src="./assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="./assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="./assets/vendor/input-mask/input-mask.min.js"></script>
+    <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+    <script src="./assets/vendor/textarea-autosize/textarea-autosize.min.js"></script>
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.js"></script>
+</body>
+</html>
